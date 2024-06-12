@@ -1,0 +1,159 @@
+/* src/Header.css */
+.header-container {
+  background: linear-gradient(135deg, #031d4a 0%, #174ea5 100%);
+  color: white;
+  /* padding: 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  position: relative;
+  border-radius: 25px;
+  /* margin: 20px; */
+  margin-top: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.header-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+  opacity: 0.2; /* Adjust opacity to your liking */
+  z-index: 0; /* Ensure it is behind the text */
+}
+
+/* .header-container::middle, */
+.header-container::before,
+.header-container::after {
+  content: '';
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.header-container::before {
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  left: 20px;
+}
+
+.header-container::after {
+  width: 150px;
+  height: 150px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.header-content {
+  text-align: center;
+  z-index: 1;
+}
+
+.header-content h1 {
+  margin: 10px;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+
+.header-content p {
+  margin: 0;
+  font-size: 1.19rem;
+}
+
+.logos {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+  position: absolute;
+  bottom: -30px; /* Adjust as needed */
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 1;
+}
+
+.logo-container{
+    background: var(--background-color);
+    padding: 3px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+  width: 55px; /* Adjust size as needed */
+  height: auto;
+  align-items: center;
+}
+
+
+.logos img:hover {
+  transform: scale(1.1);
+}
+
+
+/* Media queries for responsive design */
+@media (max-width: 968px) {
+  .header-container {
+    height: 300px;
+    margin: 10px;
+    margin-top: 20px;
+  }
+
+  .header-content h1 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .header-content p {
+    font-size: 1.3rem;
+  }
+
+  .logos {
+    bottom: -25px; /* Adjusted for smaller screen */
+    gap: 10px;
+  }
+
+  .logo-container {
+    padding: 3px;
+  }
+
+  .logo {
+    width: 50px; /* Adjust size for smaller screen */
+  }
+}
+
+@media (max-width: 480px) {
+  .header-container {
+    height: 300px;
+  }
+
+  .header-content h1 {
+    font-size: 1.7rem;
+    line-height: 1.5;
+  }
+
+  .header-content p {
+    font-size: 0.9rem;
+  }
+
+  .logos {
+    bottom: -24px; /* Adjusted for even smaller screen */
+    gap: 5px;
+  }
+
+  .logo-container {
+    padding: 3px;
+  }
+
+  .logo {
+    width: 40px; /* Adjust size for smaller screen */
+  }
+}

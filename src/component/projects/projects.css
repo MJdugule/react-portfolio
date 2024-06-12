@@ -1,0 +1,103 @@
+/* src/components/project-page/ProjectPage.css */
+
+.project-page {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: var(--background-color);
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 90px;
+}
+
+.project-page h2 {
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.project-page-grid {
+  display: grid;
+  grid-column: 1/span 12;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.project-page-view-more {
+  margin-top: 20px;
+  padding: 15px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--button-bg-color);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.project-page-view-more:hover {
+  background-color: var(--button-hover-bg-color);
+   transform: scale(1.04);
+}
+
+@media (max-width: 968px) {
+.project-page {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: var(--background-color);
+  text-align: center;
+  margin-left: 18vw;
+  margin-right: 18vw;
+}
+
+.project-page h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.project-page-grid {
+  display: flex;
+  flex-direction: column;
+  /* grid-column: 1; */
+  /* grid-template-columns: repeat(1, minmax(220px, 1fr)); */
+  justify-content: center;
+  gap: 30px;
+
+}
+}
+
+/* Media queries for responsive design */
+@media (max-width: 608px) {
+.project-page {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: var(--background-color);
+  text-align: center;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.project-page h2 {
+  /* font-weight: 600; */
+  line-height: 1.4;
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.project-page-grid {
+  display: flex;
+  flex-direction: column;
+  /* grid-column: 1; */
+  /* grid-template-columns: repeat(1, minmax(220px, 1fr)); */
+  justify-content: center;
+  gap: 25px;
+
+}
+}
+
