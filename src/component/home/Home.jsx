@@ -18,11 +18,11 @@ const Home = () => {
             Hello I am <strong>Morka Joshua</strong>, an experienced mobile app
             developer passionate about using technology to solve real-world
             problems. Proficient in Flutter and Kotlin programming languages,
-            with 4 years of experience working with teams to develop successful
+            with 3 years of experience working with teams to develop successful
             mobile applications.
           </p>
           <a
-            href="https://drive.google.com/file/d/1rZE2Gg_l_CE7boDzCeO-r-NDhqYNG1EW/view"
+            href="https://drive.google.com/file/d/1jrxxe0K3X3mPt6IGQ-kuXVZdQZVU7Dee/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

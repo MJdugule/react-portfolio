@@ -9,7 +9,7 @@ import Footer from "./component/footer/Footer";
 // import Skills from "./component/skills/Skills";
 
 function App() {
-  const [theme] = useState("dar");
+  const [theme] = useState("dark");
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);

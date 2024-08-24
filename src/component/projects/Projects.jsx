@@ -7,6 +7,9 @@ import peersapp from "../../asset/peersapp.png";
 import warelogtech from "../../asset/warelogtech.png";
 import speakbetter from "../../asset/speakbetter.png";
 import repairHome from "../../asset/repair.png";
+import explore from "../../asset/explore.png";
+import weather from "../../asset/weather.png";
+import perry from "../../asset/perry.png";
 
 const initialProjects = [
   {
@@ -20,7 +23,7 @@ const initialProjects = [
     title: "WareLogTech",
     description:
       "Warelogtech enables you to effortlessly book apartments, warehouses, and trucks from the comfort of your home. ",
-    link: "#",
+    link: "https://drive.google.com/file/d/1tTj67iD_JDXn1K_I0rjXOywDBwELS7br/view",
     imageSrc: warelogtech,
   },
   {
@@ -34,15 +37,30 @@ const initialProjects = [
 
 const moreProjects = [
   {
-    title: "Repair Home",
-    description: "Discover the newly reimagined Chrome Web Store.",
-    link: "https://github.com/MJdugule/Group-61-capstone2",
-    imageSrc: repairHome,
+    title: "PerryPay",
+    description:
+      "A mobile app user where users can buy and sell crypto currency, gift cards,airtime and data, and chat with agents",
+    link: "https://drive.google.com/file/d/1Nd0CORqy7Ep0ax-zhyLYVHpfYS7BBJOU/view?usp=sharing",
+    imageSrc: perry,
   },
   {
-    title: "MindPal",
-    description: "More features description.",
-    link: "#",
+    title: "Explore",
+    description:
+      "A mobile app thhat gets the details from all the country in the world, using a open source country API",
+    link: "https://drive.google.com/file/d/1k28Gm89Wt8_WugXxjBSRqYIOjReBVwk6/view",
+    imageSrc: explore,
+  },
+  {
+    title: "Weather App",
+    description:
+      "A weather app that gets the current weather data for specific locations and displays the data based on selected locations",
+    link: "https://drive.google.com/file/d/1hL74c04-i9qiUAGRV-ObFinLG6skT_SX/view",
+    imageSrc: weather,
+  },
+  {
+    title: "Repair Home",
+    description: "A simple UI design for a repair management app",
+    link: "https://github.com/MJdugule/Group-61-capstone2",
     imageSrc: repairHome,
   },
   // {
