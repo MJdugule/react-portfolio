@@ -14,6 +14,7 @@ const ProjectCard = ({title, description, link, imageSrc }) => {
       >
         View
       </a>
+      <div class="spacer"></div>
       <div className="project-card-image">
         <img src={imageSrc} alt="" />
       </div>

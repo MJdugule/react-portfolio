@@ -9,16 +9,41 @@ import speakbetter from "../../asset/speakbetter.png";
 import repairHome from "../../asset/repair.png";
 import explore from "../../asset/explore.png";
 import weather from "../../asset/weather.png";
-import perry from "../../asset/perry.png";
+import perry from "../../asset/perrypay.png";
+import mowo from "../../asset/mowo.png";
+import cyclex from "../../asset/cyclex.png";
+import cyclexAgent from "../../asset/cyclex_agent.png";
 
 const initialProjects = [
   {
-    title: "PeersApp",
+    title: "CycleX",
     description:
-      "PeersApp provides a built-in reading platform where users can comfortably read books within the application itself.",
-    link: "https://play.google.com/store/apps/details?id=com.peersapp.mobile.peersapp_mobile",
-    imageSrc: peersapp,
+      "CycleX is a platform that helps users trade waste for cash, fostering a cleaner and greener environment.",
+    link: "https://play.google.com/store/apps/details?id=com.cyclex.mobile",
+    imageSrc: cyclex,
   },
+  {
+    title: "CycleX Agent",
+    description:
+      "CycleX Africa Agent is a platform that helps cyclex agent in collecting waste from various regions, and recycling it into valuable resources, fostering a cleaner and greener environment.",
+    link: "https://play.google.com/store/apps/details?id=com.cyclex.agent",
+    imageSrc: cyclexAgent,
+  },
+  {
+    title: "Mowo Africa",
+    description:
+      "Mowo Africa is a platform designed to connect buyers and sellers seamlessly. It enables sellers to create stores, generate invoices, and receive payments, while buyers can easily discover stores, pay invoices, and redeem coupons. The platform also incorporates features like virtual accounts, referrals, notifications, and admin controls for verification and management.",
+    link: "https://play.google.com/store/apps/details?id=com.mobile.mowo",
+    imageSrc: mowo,
+  },
+  {
+    title: "PerryPay",
+    description:
+      "A mobile app where users can buy and sell crypto currency, gift cards, purchase airtime and data, and chat with agents",
+    link: "https://drive.google.com/file/d/1Nd0CORqy7Ep0ax-zhyLYVHpfYS7BBJOU/view?usp=sharing",
+    imageSrc: perry,
+  },
+ 
   {
     title: "WareLogTech",
     description:
@@ -37,11 +62,11 @@ const initialProjects = [
 
 const moreProjects = [
   {
-    title: "PerryPay",
+    title: "PeersApp",
     description:
-      "A mobile app user where users can buy and sell crypto currency, gift cards,airtime and data, and chat with agents",
-    link: "https://drive.google.com/file/d/1Nd0CORqy7Ep0ax-zhyLYVHpfYS7BBJOU/view?usp=sharing",
-    imageSrc: perry,
+      "PeersApp provides a built-in reading platform where users can comfortably read books within the application itself.",
+    link: "https://play.google.com/store/apps/details?id=com.peersapp.mobile.peersapp_mobile",
+    imageSrc: peersapp,
   },
   {
     title: "Explore",
