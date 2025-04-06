@@ -39,11 +39,11 @@ const initialProjects = [
   {
     title: "PerryPay",
     description:
-      "A mobile app where users can buy and sell crypto currency, gift cards, purchase airtime and data, and chat with agents",
-    link: "https://drive.google.com/file/d/1Nd0CORqy7Ep0ax-zhyLYVHpfYS7BBJOU/view?usp=sharing",
+      "A mobile app where users can have a seamless and engaging trading experience right at there fingertips. Dive into the world of cryptocurrencies, gift cards, and exclusive rewards with innovative features designed to cater to all trading needs where you can buy and sell crypto currency, gift cards, purchase airtime and data, and chat with agents",
+    link: "https://play.google.com/store/apps/details?id=co.perrypays.app",
     imageSrc: perry,
   },
- 
+
   {
     title: "WareLogTech",
     description:
@@ -71,7 +71,7 @@ const moreProjects = [
   {
     title: "Explore",
     description:
-      "A mobile app thhat gets the details from all the country in the world, using a open source country API",
+      "A mobile app that gets the details from all the country in the world, using a open source country API",
     link: "https://drive.google.com/file/d/1k28Gm89Wt8_WugXxjBSRqYIOjReBVwk6/view",
     imageSrc: explore,
   },
