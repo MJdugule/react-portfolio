@@ -12,6 +12,8 @@ import weather from "../../asset/weather.png";
 import perry from "../../asset/perrypay.png";
 import mowo from "../../asset/mowo.png";
 import cyclex from "../../asset/cyclex.png";
+import paybond from "../../asset/paybond.png";
+import milarn from "../../asset/milarn.png";
 import cyclexAgent from "../../asset/cyclex_agent.png";
 
 const initialProjects = [
@@ -43,14 +45,21 @@ const initialProjects = [
     link: "https://play.google.com/store/apps/details?id=co.perrypays.app",
     imageSrc: perry,
   },
-
   {
-    title: "WareLogTech",
+    title: "Milarn",
     description:
-      "Warelogtech enables you to effortlessly book apartments, warehouses, and trucks from the comfort of your home. ",
-    link: "https://drive.google.com/file/d/1tTj67iD_JDXn1K_I0rjXOywDBwELS7br/view",
-    imageSrc: warelogtech,
+      "Get paid when you need it! With Milarn EWA, employees can access their earned wages before payday—giving you financial flexibility and control over your money. No more waiting for your paycheck or relying on high-interest loans.",
+    link: "https://play.google.com/store/apps/details?id=com.milarn.mobile&hl=en",
+    imageSrc: milarn,
   },
+  {
+    title: "Pay Bond",
+    description:
+      "Pay Bond is a reliable, safe, and secure platform that allows you to buy airtime, mobile data, and make utility payments with ease and convenience.",
+    link: "https://play.google.com/store/apps/details?id=com.paybond.paybondapp",
+    imageSrc: paybond,
+  },
+
   {
     title: "Speak Better",
     description:
@@ -67,6 +76,14 @@ const moreProjects = [
       "PeersApp provides a built-in reading platform where users can comfortably read books within the application itself.",
     link: "https://play.google.com/store/apps/details?id=com.peersapp.mobile.peersapp_mobile",
     imageSrc: peersapp,
+  },
+
+  {
+    title: "WareLogTech",
+    description:
+      "Warelogtech enables you to effortlessly book apartments, warehouses, and trucks from the comfort of your home. ",
+    link: "https://drive.google.com/file/d/1tTj67iD_JDXn1K_I0rjXOywDBwELS7br/view",
+    imageSrc: warelogtech,
   },
   {
     title: "Explore",
