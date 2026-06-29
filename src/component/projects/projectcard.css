@@ -52,13 +52,20 @@
   flex-grow: 1; /* Takes up all available space */
 }
 
+.project-card-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
 .project-card-link {
   color: var(--link-color);
   font-weight: 500;
   text-decoration:underline;
   margin-bottom: 0px;
-  font-size: 14px;
-  display: inline-block;
+  font-size: 16px;
+  display: inline-flex;
 }
 
 .project-card-image {
@@ -125,8 +132,8 @@
   font-weight: 500;
   text-decoration:underline;
   margin-bottom: 0px;
-  font-size: 14px;
-  display: inline-block;
+  font-size: 16px;
+  display: inline-flex;
 }
 
 
@@ -164,8 +171,8 @@
   font-weight: 500;
   text-decoration:underline;
   margin-bottom: 0px;
-  font-size: 14px;
-  display: inline-block;
+  font-size: 16px;
+  display: inline-flex;
 }
 
 /* .project-page-grid {
