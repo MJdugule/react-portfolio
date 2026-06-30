@@ -17,8 +17,8 @@ const Home = () => {
           <p>
             Hello I am <strong>Morka Joshua</strong>, an experienced mobile app
             developer passionate about using technology to solve real-world
-            problems. Proficient in Flutter and Kotlin programming languages,
-            with 4 years of experience working with teams to develop successful
+            problems. Proficient in Flutter, Kotlin and Swift programming languages,
+            with 5+ years of experience working with teams to develop successful
             mobile applications.
           </p>
           <a
