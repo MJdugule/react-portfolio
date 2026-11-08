@@ -67,9 +67,10 @@
   margin: 0px;
   padding: 0;
   font-size: 1.1rem;
-  line-height: 1.5;
+  line-height: 1.4;
   font-weight: 400;
   align-items: start;
+  margin-bottom: 10px;
 }
 
 .skill-text strong {
@@ -189,7 +190,8 @@
   margin: 0px;
   padding: 0;
   font-size: 1.1rem;
-  line-height: 1.5;
+  line-height: 1.2;
+  margin-bottom: 10px;
   align-items: start;
 }
 
@@ -256,10 +258,11 @@
 
   .skill-text p,
 .skill-text ol {
-line-height: 1.9;
-  font-size: 1.09rem;
+line-height: 1.4;
+  font-size: 1rem;
   font-weight: 400;
- 
+   margin-bottom: 10px;
+
 }
 
 

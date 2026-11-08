@@ -47,7 +47,7 @@ const initialProjects = [
   {
     title: "AnyWorky",
     description:
-      "SnappyPay is a secure and user-friendly bill payment platform that enables customers to conveniently pay for a wide range of services and subscriptions. These include gift cards, virtual cards, electricity, internet, airtime, data bundles, education fees, cable TV, and much more.",
+      "Book trusted home help from your phone. Cleaning, handyman jobs, furniture assembly and lawn care from background-checked local pros. You see the full price before you book, and your payment is held until the job is done.",
     androidLink: "https://play.google.com/store/apps/details?id=com.anyworky.mobile",
     iosLink: "https://apps.apple.com/ca/app/anyworky/id6771434426",
     imageSrc: anyWorky,
