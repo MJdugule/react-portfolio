@@ -43,20 +43,22 @@ const Skills = () => {
 
           <p>
             <ol>
-              <strong>Programming Languages: </strong>Flutter, Dart, Kotlin,
-              Nodejs, Python.<span></span>
+              <strong>Programming Languages: </strong>Flutter, Dart, Kotlin, Swift, JavaScript, Node.js, TypeScript, Python, Java, C, C++, .NET/ASP.NET Core.<span></span>
             </ol>
             <ol>
-              <strong>State Management: </strong> Provider, Stacked, Riverpod.
+              <strong>State Management: </strong> Provider, Stacked, Riverpod, Bloc, GetX.
             </ol>
             <ol>
-              <strong>Version Control: </strong>Git, Github, BitBucket.
+              <strong>Data & System Design: </strong>Data Structures, Postgres, MongoDb, Relational and NoSQL data modelling, Redis, Local Storage, Data Caching, Offline-First Architecture, Background Synchronisation.
             </ol>
             <ol>
-            <strong>Developer Collaboration </strong>
+              <strong>DevOps & Tools: </strong>CI/CD, GitHub Actions, AWS, Docker, Azure, Shorebird, Git, GitHub, Bitbucket, Postman, Firebase Crashlytics, Jira, Confluence, Figma.
             </ol>
             <ol>
-              <strong>Leadership Skill </strong>
+            <strong>Ways of Working: </strong>Agile, Scrum, Technical Ownership, Cross-functional Collaboration, Team Leadership.
+            </ol>
+            <ol>
+              <strong>APIs & Integrations: </strong>REST APIs, GraphQL, JSON, Third-party Integrations, Authentication, OAuth, WebSockets, Data Streams, vector search concepts, Error Handling.
             </ol>
           </p>
         </div>

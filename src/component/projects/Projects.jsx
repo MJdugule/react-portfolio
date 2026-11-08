@@ -17,6 +17,7 @@ import milarn from "../../asset/milarn.png";
 import cyclexAgent from "../../asset/cyclex_agent.png";
 import billing from "../../asset/billing.png";
 import snappyPay from "../../asset/snappy.png";
+import anyWorky from "../../asset/anyworky.png";
 
 const initialProjects = [
    {
@@ -42,6 +43,14 @@ const initialProjects = [
     androidLink: "https://play.google.com/store/apps/details?id=ng.snappypay.app",
     iosLink: "https://apps.apple.com/ng/app/snappypay-pay-bills-earn/id6746515336",
     imageSrc: snappyPay,
+  },
+  {
+    title: "AnyWorky",
+    description:
+      "SnappyPay is a secure and user-friendly bill payment platform that enables customers to conveniently pay for a wide range of services and subscriptions. These include gift cards, virtual cards, electricity, internet, airtime, data bundles, education fees, cable TV, and much more.",
+    androidLink: "https://play.google.com/store/apps/details?id=com.anyworky.mobile",
+    iosLink: "https://apps.apple.com/ca/app/anyworky/id6771434426",
+    imageSrc: anyWorky,
   },
   {
     title: "CycleX",

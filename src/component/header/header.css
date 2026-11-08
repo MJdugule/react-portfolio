@@ -60,12 +60,27 @@
   margin: 10px;
   font-size: 3.2rem;
   font-weight: 600;
-  line-height: 4rem;
+  line-height: 3rem;
+}
+
+.typing-cursor {
+  display: inline-block;
+  height: 0.9em;
+  margin-left: 0.08em;
+  border-right: 0.08em solid currentColor;
+  vertical-align: -0.08em;
+  animation: typing-cursor-blink 0.8s steps(2, start) infinite;
+}
+
+@keyframes typing-cursor-blink {
+  to {
+    visibility: hidden;
+  }
 }
 
 .header-content p {
   margin: 0;
-  font-size: 1.19rem;
+  font-size: 1.5rem;
 }
 
 .logos {
@@ -155,5 +170,11 @@
 
   .logo {
     width: 40px; /* Adjust size for smaller screen */
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .typing-cursor {
+    animation: none;
   }
 }
